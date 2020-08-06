@@ -9,4 +9,4 @@ the implementation starts with connecting arduino-uno, sim800l module, the resis
 i did not connect sim800l module to arduino pins as shown above, i connected them to a0 and a1 analogue pins of arduino,but i guess any other pin should work.
 here is a picture of my implementations:
 
-![implementation](https://github.com/pariyamd/Smart-warehouse/blob/master/images/implementation1.jpg)
+![implementation](https://github.com/pariyamd/Smart-warehouse/blob/master/images/implemented1.jpg)
