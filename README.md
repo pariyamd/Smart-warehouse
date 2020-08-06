@@ -10,9 +10,10 @@ the implementation starts with connecting arduino-uno, sim800l module, the resis
 i did not connect sim800l module to arduino pins as shown above, i connected them to a0 and a1 analogue pins of arduino,but i guess any other pin should work.
 here is a picture of my implementations:
 
-### programming the arduino:
 ![implementation](https://github.com/pariyamd/Smart-warehouse/blob/master/images/implemented1.jpg)
 
+
+### programming the arduino:
 As a client, a TCP connection is stablished using the AT+COMMANDs in [datasheet](http://www.rhydolabz.com/wiki/wp-content/uploads/sim800_series_tcpip_application_note_v1.001.pdf) and the temperature is sent to server.(arduinouno.ino)
 
 ### on the server:
